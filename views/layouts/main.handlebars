@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Amazing Tech BLOG!</title>
+  <title>The Amazing Tech BLOG</title>
   <script src="https://kit.fontawesome.com/b84e779c40.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
@@ -15,10 +15,10 @@
     <header class="display-flex justify-space-between align-center p-2">
       <h1>
         <i class="fa-regular fa-robot ml-4 text-light"></i>
-        <a href="/" class="text-light">The Amazing Tech BLOG!</a>
+        <a href="/" class="text-light">The Amazing Tech BLOG</a>
+        <i class="fa-regular fa-robot ml-4 text-light"></i>
       </h1>
       <nav>
-        <!-- Conditionally render login or logout links -->
         {{#if loggedIn}}
         <a href="/" class="text-light">HOME</a> |
         <a href="/dashboard" class="text-light">Dashboard</a> |
@@ -29,15 +29,12 @@
       </nav>
     </header>
     <main class="container container-fluid mt-5">
-      <!-- Render the sub layout -->
       {{{ body }}}
     </main>
     <footer>
       
     </footer>
   </div>
-
-  <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}

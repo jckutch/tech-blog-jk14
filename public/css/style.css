@@ -21,5 +21,17 @@ header, .project:not(:last-child) {
     color: #056605;
     font-weight: bold;
     margin-left: -5px;
-  }
+}
+
+.custom-bg {
+    background-color: rgb(61, 158, 211);
+}
+
+.custom-input-height {
+    height: 40px;
+}
+
+.custom-hidden {
+    display: none;
+}
   

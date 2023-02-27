@@ -5,24 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Tech BLOG</title>
-   <link rel="stylesheet" href="/css/jass.css">
+    <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
   <div class="flex-column justify-space-around ">
-    <header class="display-flex justify-space-between align-center p-2 custom-bg">
+    <header class="display-flex justify-space-between bg-info align-center p-2 custom-bg">
       <h1 >
-        <i class="ml-4 text-light"></i>
-        <a href="/" class="text-light">The Tech BLOG</a>
+        <i class="ml-4 text-light "></i>
+        <a href="/" class="text-dark">The Tech BLOG</a>
       </h1>
       <nav>
         {{#if loggedIn}}
-        <a href="/" class="text-light">home</a> |
-        <a href="/dashboard" class="text-light">dashboard</a> |
-        <button class="no-button mr-4 text-light" id="logout">logout</button>
+        <a href="/" class="text-dark">home</a> |
+        <a href="/dashboard" class="text-dark">dashboard</a> |
+        <button class="no-button mr-4 text-dark" id="logout">logout</button>
         {{else}}
-        <a class="mr-4 text-light" href="/login">login</a>
+        <a class="mr-4 text-dark" href="/login">login</a>
         {{/if}}
       </nav>
     </header>

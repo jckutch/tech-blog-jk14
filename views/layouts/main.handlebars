@@ -5,26 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Tech BLOG</title>
-  <script src="https://kit.fontawesome.com/b84e779c40.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/css/jass.css">
-  <link rel="stylesheet" href="/css/style.css">
+   <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
-  <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <i class="fa-regular fa-robot ml-4 text-light"></i>
+  <div class="flex-column justify-space-around ">
+    <header class="display-flex justify-space-between align-center p-2 custom-bg">
+      <h1 >
+        <i class="ml-4 text-light"></i>
         <a href="/" class="text-light">The Tech BLOG</a>
-        <i class="fa-regular fa-robot ml-4 text-light"></i>
       </h1>
       <nav>
         {{#if loggedIn}}
-        <a href="/" class="text-light">HOME</a> |
-        <a href="/dashboard" class="text-light">Dashboard</a> |
-        <button class="no-button mr-4 text-light" id="logout">LOGOUT</button>
+        <a href="/" class="text-light">home</a> |
+        <a href="/dashboard" class="text-light">dashboard</a> |
+        <button class="no-button mr-4 text-light" id="logout">logout</button>
         {{else}}
-        <a class="mr-4 text-light" href="/login">LOGIN</a>
+        <a class="mr-4 text-light" href="/login">login</a>
         {{/if}}
       </nav>
     </header>
@@ -35,7 +33,8 @@
       
     </footer>
   </div>
-  {{#if logged_in}}
+
+  {{#if loggedIn}}
   <script src="/js/logout.js"></script>
   {{/if}}
 </body>

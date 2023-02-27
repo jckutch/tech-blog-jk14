@@ -2,14 +2,19 @@ const router = require('express').Router();
 const { Post, Comment, User } = require('../models');
 const withAuth = require('../utils/auth');
 
+// get all posts for homepage
 router.get('/', async (req, res) => {
     try {
+        // Get all posts and JOIN with user data
         const postData = await Post.findAll({
             include: [ { model: User } ],
         });
 
+        // Serialize data so the template can read it
         const posts = postData.map((post) => post.get({ plain: true }));
-        res.render('posts', {
+
+        // Pass serialized data and session flag into template
+        res.render('all-posts', {
             posts,
             loggedIn: req.session.loggedIn
         });
@@ -18,6 +23,7 @@ router.get('/', async (req, res) => {
     }
 });
 
+// get single post
 router.get('/post/:id', withAuth, async (req, res) => {
     try {
         const commentData = await Comment.findAll({
@@ -34,6 +40,7 @@ router.get('/post/:id', withAuth, async (req, res) => {
         const post = postData.get({ plain: true });
 
         const comments = commentData.map((comment) => comment.get({ plain: true }));
+
         res.render('single-post', {
             ...post,
             comments,

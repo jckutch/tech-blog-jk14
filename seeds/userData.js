@@ -1,28 +1,23 @@
-const postFormHandler = async function (event) {
-    event.preventDefault();
-    const post_idString = document.querySelector('#post-id').innerHTML;
-    const id = +post_idString
-    const title = document.querySelector('#post-title').value;
-    const content = document.querySelector('#post-body').value;
+const { User } = require('../models');
 
-    if (content && title) {
-        const response = await fetch(`/api/post/${id}`, {
-            method: 'PUT',
-            body: JSON.stringify({
-                title,
-                content
-            }),
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        });
+const userData = [
+  {
+    username: 'mikek',
+    email: 'mikek@aol.com',
+    password: 'superstart',
+  },
+  {
+    username: 'funnygirl',
+    email: 'fg@comedyhouse.com',
+    password: 'keepmelaughing',
+  },
+  {
+    username: 'crimejunkie',
+    email: 'stevie@gmail.com',
+    password: 'neverbeenarrested',
+  },
+];
 
-        if (response.ok) {
-            document.location.reload();
-          } else {
-            alert('Failed to update post');
-          }
-    }
-};
+const seedUsers = () => User.bulkCreate(userData);
 
-document.querySelector('#new-post-form').addEventListener("click", postFormHandler);
+module.exports = seedUsers;

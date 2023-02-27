@@ -2,18 +2,18 @@ const { Post } = require('../models');
 
 const postData = [
   {
-    title: 'Whoa look at this post!',
-    content: 'This is the absolute coolest post ever. If I really had to define a cool post... it would most definitely be this one!',
+    title: 'This is really cool I can write a post!',
+    content: "Even though I don't know what to say!",
     user_id: 1,
   },
   {
-    title: 'Im happy today. Guess why!',
-    content: 'Absolutely no way youll guess. No one has guessed correctly yet!',
+    title: 'It is raining!',
+    content: "On days like this, I'm always wet!",
     user_id: 2,
   },
   {
-    title: 'My favorite anime',
-    content: 'ALL OF THEM MUAHAHA',
+    title: 'My favorite soccer team',
+    content: 'Arsenal is the best team ever!',
     user_id: 3,
   },
 ];

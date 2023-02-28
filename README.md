@@ -93,7 +93,7 @@ None
 Repository Link:  https://github.com/jckutch/tech-blog-jk14<br />
 <br />
 <br />
-Heroku Link: https://git.heroku.com/young-brushlands-15177.git<br />
+Heroku Link: <br />
 
 
 

@@ -4,11 +4,11 @@
 # 
  
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://mit-license.org/)
-
+<br />
 ## Description
 In this project, I built a CMS-style blog site and is similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.
-
-
+<br />
+<br />
 ## Table of Contents
 
   * [User Story](#userstory)
@@ -19,15 +19,15 @@ In this project, I built a CMS-style blog site and is similar to a Wordpress sit
   * [Links](#links)
   * [Mockup](#mockup)
   * [License](#license)
-
-
+<br />
+<br />
 ## User Story
   <a name="userstory"></a>
 AS A developer who writes about tech<br />
 I WANT a CMS-style blog site<br />
 SO THAT I can publish articles, blog posts, and my thoughts and opinions<br />
-
-
+<br />
+<br />
 ## Acceptance Criteria
   <a name="acceptance"></a>
 GIVEN a CMS-style blog site<br />
@@ -63,7 +63,8 @@ WHEN I click on the logout option in the navigation<br />
 THEN I am signed out of the site<br />
 WHEN I am idle on the site for more than a set time<br />
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments<br />
-
+<br />
+<br />
 ## Installation 
   <a name="installation"></a>
     1) User can copy repository from github at: (https://github.com/jckutch/tech-blog-jk14)<br />
@@ -74,30 +75,29 @@ THEN I am able to view comments but I am prompted to log in again before I can a
     5) Then enter `quit` in MySQL and enter `npm run seed` in terminal to run application.<br />
     6) Then enter `npm start` to start database.<br />
     7) Then run `localhost:3001` in browser.<br />
-
-
+<br />
+<br />
 ## Usage
   <a name="usage"></a>
 User can create a unique login, create a blog post with title, update post and delete post.  They can also add a comment to another users post.
 When user goes to dashboard they see all their post.
 All of blogs post can be seen by selecting the `home` button.<br />
-
-
+<br />
+<br />
 ## Tests
   <a name="tests"></a>
 None
-
-
+<br />
+<br />
 ## Links
   <a name="links"></a>
 Repository Link:  https://github.com/jckutch/tech-blog-jk14<br />
 <br />
+Heroku Link:  https://tech-blog-jk14.herokuapp.com<br />
 <br />
-Heroku Link: <br />
-
-
-
-
+<br />
+<br />
+<br />
 ## License 
   <a name="license"></a> License
 Licensed under <br /> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://mit-license.org/).

@@ -100,9 +100,9 @@ Heroku Link:  https://tech-blog-jk14.herokuapp.com<br />
   <a name="mockup"></a>
 <br />
 Sample Screen Shots:<br />
-![screenShot](/assets/Screenshot%202023-02-27%20223949.jpg)<br />
-![screenShot](/assets/Screenshot%202023-02-27%20224059.jpg)<br />
-![screenShot](/assets/Screenshot%202023-02-27%20224215.jpg)<br />
+![screenShot](/assets/Web%20capture_8-3-2023_103410_tech-blog-jk14.herokuapp.com.jpeg)<br />
+![screenShot](/assets/Web%20capture_8-3-2023_10354_tech-blog-jk14.herokuapp.com.jpeg)<br />
+![screenShot](/assets/Web%20capture_8-3-2023_10364_tech-blog-jk14.herokuapp.com.jpeg)<br />
 <br />
 <br />
 <br />

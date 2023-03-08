@@ -100,9 +100,9 @@ Heroku Link:  https://tech-blog-jk14.herokuapp.com<br />
   <a name="mockup"></a>
 <br />
 Sample HTML images:<br />
-![team-image](./assets/Screenshot%202023-02-27%20224059.jpg)<br />
-![team-image](./assets/Screenshot%202023-02-27%20223949.jpg)<br />
-![team-image](./assets/Screenshot%202023-02-27%20224215.jpg)<br />
+![team-image](/assets/Screenshot%202023-02-27%20224059.jpg)<br />
+![team-image](/assets/Screenshot%202023-02-27%20223949.jpg)<br />
+![team-image](/assets/Screenshot%202023-02-27%20224215.jpg)<br />
 <br />
 <br />
 <br />
